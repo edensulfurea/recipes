@@ -1,0 +1,100 @@
+/* Gotico elegante e misterioso */
+body {
+  background-color: #1b1b1b; /* nero profondo */
+  color: #d6c2c2; /* rosa pallido/antico */
+  font-family: "Cinzel", serif; /* gotico ma leggibile */
+  text-align: center;
+  padding: 50px;
+  background-image: radial-gradient(circle at top, #2d2d2d, #1b1b1b);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #7a1f3d; /* bordeaux intenso */
+  text-shadow: 2px 2px 8px #000000aa;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #7a1f3d;
+  display: inline-block;
+  padding-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+a {
+  font-size: 1.5rem;
+  color: #e5d3e5;
+  text-decoration: none;
+  font-family: "Crimson Text", serif;
+  transition: all 0.3s ease;
+  border-bottom: 1px dashed #e5d3e5;
+}
+
+a:hover {
+  color: #c19ac1;
+  text-shadow: 0 0 5px #c19ac1;
+  border-bottom: 1px solid #c19ac1;
+}
+.recipe-img {
+  width: 200px; /* DIMINUITO da 400 */
+  border: 8px double #7a1f3d;
+  padding: 6px;
+  background-color: #2b1a1a;
+  box-shadow: 0 0 15px #000000aa;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+
+
+h2 {
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #bda0cb;
+  text-shadow: 1px 1px 5px #000;
+  margin-top: 30px;
+  border-bottom: 1px dashed #bda0cb;
+  padding-bottom: 5px;
+}
+
+p, li {
+  font-family: serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e0d6d6;
+}
+
+.back-home {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #bda0cb;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #2b1a1a;
+  padding: 8px 12px 8px 40px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px #000;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back-home:hover {
+  color: #c19ac1;
+  text-shadow: 0 0 5px #c19ac1;
+}
+
+.sigillo-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(80%) sepia(20%) saturate(300%) hue-rotate(280deg);
+}
